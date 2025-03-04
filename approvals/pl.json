@@ -1,0 +1,479 @@
+{
+  "item_not_found": "Element nie został odnaleziony",
+  "substitution_overlaping": "Istnieje już zastępstwo dla tego użytkownika",
+  "page": {
+    "approvals": {
+      "my": "Moje zatwierdzenia",
+      "all": "Wszystkie zatwierdzenia",
+      "details": "Szczegóły zatwierdzenia {{id}} - {{name}}",
+      "invoice": "Szczegóły dokumentu {{id}}",
+      "timeline": "Oś czasu zatwierdzenia {{id}}",
+      "history": "Historia zatwierdzeń",
+      "approve": "Akcepteacja zatwierdzenia",
+      "reject": "Odrzucanie zatwierdzenia"
+    },
+    "workflow": {
+      "definitions": "Definicje",
+      "create": "Tworzenie nowej definicji",
+      "edit": "Edycja definicji {{id}}",
+      "copy": "Kopia definicji {{id}}",
+      "history": "Historia definicji {{id}}"
+    },
+    "exchangeRates": {
+      "list": "Kursy walut"
+    },
+    "substitutions": {
+      "list": "Zastępstwa"
+    },
+    "error": {
+      "404": "Strona nie została odnaleziona"
+    }
+  },
+  "nav": {
+    "myApprovals": "Moje zatwierdzenia",
+    "allApprovals": "Wszystkie zatwierdzenia",
+    "definitions": "Definicje",
+    "search": "Szukaj",
+    "history": "Historia",
+    "exchangeRates": "Kursy walut",
+    "substitutions": "Zastępstwa"
+  },
+  "common": {
+    "noItemsFound": "Brak wyników do wyświetlenia",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "copy": "Kopiuj",
+    "close": "Zamknij",
+    "delete": "Usuń",
+    "edit": "Edytuj",
+    "back": "Powrót",
+    "goBack": "Wróć",
+    "☢️ prev": "Poprzedni",
+    "☢️ next": "Następny",
+    "hide": "Ukryj",
+    "show": "Pokaż",
+    "filters": "Filtry",
+    "clearFilters": "Wyczyść filtry",
+    "search": "Szukaj",
+    "moreDetails": "Więcej szczegółów",
+    "readMore": "Czytaj więcej",
+    "reject": "Odrzuć",
+    "accept": "Akceptuj",
+    "approve": "Zatwierdź",
+    "hold": "Wstrzymaj",
+    "resultsPerPage": "Wyników na stronie",
+    "unsorted": "Nieposortowane",
+    "desc": "Malejąco",
+    "asc": "Rosnąco"
+  },
+  "validation": {
+    "workflow": {
+      "applicationIsRequired": "Pole aplikacja jest wymagane",
+      "☢️ approvedActionIsRequired": "Pole akcja zatwierdzenia jest wymagane",
+      "approverIsRequired": "Pole zatwierdzający jest wymagane",
+      "categoryIsRequired": "Pole kategoria jest wymagane",
+      "effectiveDateIsRequired": "Pole data rozpoczęcia jest wymagane",
+      "entityTypeIsRequired": "Pole typ obiektu jest wymagane",
+      "nameIsRequired": "Pole nazwa jest wymagane",
+      "☢️ rejectedActionIsRequired": "Pole akcja odrzucenia jest wymagane",
+      "ownerIsRequired": "Pole właściciel jest wymagane"
+    },
+    "approval": {
+      "rejectCommentIsRequired": "Pole komentarz jest wymagane"
+    }
+  },
+  "approval": {
+    "details": "Szczegóły",
+    "timeline": "Oś czasu",
+    "search": "Szukaj",
+    "comment": "Komentarz",
+    "step": "Krok {{step}}",
+    "timelineApprovers": "Zatwierdzający",
+    "noItemsFound": "Brak wyników",
+    "history": "Historia",
+    "notification": {
+      "unknownEntityType": "Nieznany typ",
+      "couldNotShowDetails": "Nie można pokazć szczegółów",
+      "itemNotFound": "Nie znaleziono elementu",
+      "acceptApproveInProgress": "Trwa akceptowanie zatwierdzenia...",
+      "rejectApproveInProgress": "Trwa odrzucanie zatwierdzenia...",
+      "loading": "Ładowanie",
+      "rejectConfirmationTitle": "Potwierdzenie odrzucenia",
+      "rejectConfirmationDescription": "Proszę podać komentarz dotyczący akcji odrzucenia.",
+      "rejectedItemOfPoNumber": "Odrzucono element o podanym numerze PO {{orderNumber}}",
+      "haveRejected": "Odrzucono {{message}}",
+      "rejected": "Odrzucone",
+      "holdConfirmationTitle": "Wstrzymaj potwierdzenie",
+      "holdConfirmationDescription": "Proszę podać komentarz dotyczacy akcji wstrzymania.",
+      "holdItemOfPoNumber": "Wstrzymano element o podanym numerze PO {{orderNumber}}",
+      "onHold": "Wstrzymano",
+      "accepted": "Zaakceptowane",
+      "acceptedItemOfPoNumber": "Zaakceptowano element o podanym numerze PO {{orderNumber}}",
+      "haveAccepted": "Zaakceptowano {{message}}"
+    },
+    "purchseOrderDetails": {
+      "name": "Nazwa",
+      "crossReference": "Nazwa własna",
+      "amount": "Kwota",
+      "price": "Cena",
+      "quantity": "Ilość",
+      "requestedDate": "Data wymagana"
+    },
+    "action": {
+      "timeline": "Oś czasu",
+      "reject": "Odrzuć",
+      "onHold": "Wstrzymaj",
+      "approve": "Zatwierdź",
+      "accept": "Akceptuj",
+      "addAttachment": "Dodaj załącznik"
+    },
+    "placeholder": {
+      "comment": "Wprowadź komentarz",
+      "searchPhrase": "Szukana fraza",
+      "searchQuery": "Wpisz min. 3 znaki"
+    },
+    "category": {
+      "pending": "Oczekujące",
+      "overdue": "Zaległe"
+    },
+    "filters": {
+      "status": "Status",
+      "date": "Data",
+      "query": "Słowo kluczowe",
+      "category": "Kategoria",
+      "dueDateFrom": "Data terminu od",
+      "dueDateTo": "Data terminu do",
+      "createdDateFrom": "Data utworzenia od",
+      "createdDateTo": "Data utworzenia do",
+      "customDateFrom": "Własna data od",
+      "customDateTo": "Własna data do",
+      "today": "Dzisiaj",
+      "thisWeek": "Ten tydzień",
+      "thisMonth": "Ten miesiąc",
+      "thisYear": "Ten rok"
+    },
+    "table": {
+      "header": {
+        "category": "Kategoria",
+        "dueDate": "Termin odp.",
+        "status": "Status",
+        "OrderId": "ID Zamówienia",
+        "SupplierName": "Nazwa Dostawcy",
+        "OpenAmount": "Kwota",
+        "Currency": "Waluta",
+        "Branch": "Magazyn",
+        "CompanyCode": "Kod Firmy",
+        "name": "Nazwa",
+        "amount": "Kwota",
+        "Amount": "Kwota",
+        "qty": "Ilość",
+        "Quantity": "Ilość",
+        "price": "Cena",
+        "step": "{{step}}",
+        "orderDetails": "Szczegóły Zamówienia",
+        "details": "Szczegóły",
+        "createdDate": "Data Utworzenia"
+      },
+      "tooltip": {
+        "step": "Krok"
+      },
+      "row": {
+        "workflowId": "Identyfikator: {{data}}",
+        "orderId": "ID zamówienia: {{data}}",
+        "supplierName": "Nazwa dostawcy: {{data}}",
+        "openAmount": "Wartość całkowita: {{data}}",
+        "amount": "Wartość całkowita: {{data}}"
+      }
+    },
+    "card": {
+      "openAmount": "Kwota całkowita",
+      "poNumber": "Numer PO",
+      "deliveryDate": "Data utworzenia"
+    },
+    "tab": {
+      "items": "Elementy",
+      "comments": "Komentarze",
+      "attachments": "Załączniki"
+    },
+    "status": {
+      "overdue": "Zaległy",
+      "onHold": "Wstrzymany",
+      "pending": "W trakcie",
+      "approved": "Zatwierdzony",
+      "rejected": "Odrzucony",
+      "notStarted": "Nierozpoczęty",
+      "future": "Nierozpoczęty"
+    }
+  },
+  "workflow": {
+    "title": "Definicje procesów",
+    "history": "Historia definicji procesu",
+    "createNewWorkflow": "Dodaj nowy proces",
+    "editWorkflow": "Edycja definicji procesu",
+    "comment": "Komentarz",
+    "where": "GDZIE",
+    "or": "LUB",
+    "and": "ORAZ",
+    "step": "Krok {{step}}",
+    "noItemsFound": "Brak wyników",
+    "noResultsFoundDesc": "Nie udało znaleźć się wyników spełniającyh kryteria.",
+    "timeline": {
+      "workflowDetails": "Szczegóły definicji procesu",
+      "stepDetailsDescription": "Szczegółowe informacje o wybranym kroku.",
+      "stepDetails": "Szczegóły kroku definicji procesu",
+      "stepDescription": "Opis kroku",
+      "step": "Krok",
+      "noAdditionalInfo": "Brak szczegółów",
+      "dateTime": "Data i czas"
+    },
+    "notification": {
+      "loading": "Ładowanie",
+      "noResultsFoundDescription": "Nie udało znaleźć się wyników spełniającyh kryteria.",
+      "noWorkflowHistory": "Brak historii definicji procesu",
+      "deleteSuccess": "Sukces",
+      "deleteSuccessMessage": "Pomyślnie usunięto definicję procesu",
+      "deletePending": "Usuwanie definicji procesu",
+      "deletePendingMessage": "Proszę czekać...",
+      "deleteError": "Błąd",
+      "deleteErrorMessage": "Nie udało się usunąć workflow",
+      "deleteGlobalError": "Nie udało się usunąć workflow"
+    },
+    "action": {
+      "showDeleted": "Pokaż usunięte",
+      "showExpired": "Pokaż wygasłe",
+      "createNewWorkflow": "Dodaj nowy proces",
+      "addGroup": "Dodaj grupę",
+      "addStep": "Dodaj krok",
+      "addCondition": "Dodaj warunek",
+      "addApprover": "+ Dodaj zatwierdzającego"
+    },
+    "objectTypes": {
+      "PurchaseOrder": "Zamówienia zakupowe",
+      "Holiday": "Urlop",
+      "Invoice": "Faktura"
+    },
+    "operator": {
+      "is": "jest równe",
+      "isnot": "nie jest równe",
+      "in": "jest wśród",
+      "notin": "nie jest wśród",
+      "contains": "zawiera",
+      "notcontains": "nie zawiera",
+      "=": "=",
+      "!=": "!=",
+      ">": ">",
+      "<": "<",
+      ">=": ">=",
+      "<=": "<="
+    },
+    "field": {
+      "name": "Nazwa",
+      "owner": "Właściciel",
+      "effectiveDate": "Data rozpoczęcia",
+      "expirationDate": "Data wygaśnięcia",
+      "application": "Aplikacja",
+      "entityType": "Typ obiektu",
+      "category": "Kategoria",
+      "categoryIcon": "Ikona kategorii",
+      "description": "Opis",
+      "timeout": "Limit (godz)",
+      "approver": "Zatwierdzający",
+      "notify": "Powiadomienie",
+      "purchaseOrder": {
+        "Branch": "Magazyn",
+        "CompanyCode": "Firma Zamówienia",
+        "Currency": "Waluta",
+        "CrossReference": "Nazwa Pozycji Klienta",
+        "CustomerNumber": "Numer Dostawcy",
+        "ItemAccount": "Numer Konta",
+        "ItemBranch": "Magazyn w Linii",
+        "ItemCurrency": "Waluta w Linii",
+        "ItemCustomerNumber": "Numer Klienta w Linii",
+        "ItemDescription2": "Indeks Opis 2",
+        "ItemIndex": "Nr Linii",
+        "ItemName": "Indeks Opis 1",
+        "ItemNumber1": "Indeks 1",
+        "ItemNumber2": "Indeks 2",
+        "ItemNumber3": "Indeks 3",
+        "ItemOpenAmount": "Wartość w Linii",
+        "ItemOpenAmountForeign": "Wartość w Walucie w Linii",
+        "ItemOrderDate": "Data Zamówienia",
+        "ItemPrice": "Cena w Linii",
+        "ItemPromisedDate": "Data Obiecana",
+        "ItemQuantity": "Ilość w Linii",
+        "ItemRequestedDate": "Data Wymagana",
+        "ItemUM": "JM",
+        "OpenAmount": "Wartość Całkowita",
+        "OpenAmountForeign": "Wartość Całkowita w Walucie",
+        "OrderId": "Id Zamówienia",
+        "OrderNumber": "Numer Zamówienia",
+        "OrderSuffix": "Sufiks",
+        "OrderType": "Typ Zamówienia",
+        "Price": "Cena",
+        "SupplierName": "Nazwa Dostawcy"
+      }
+    },
+    "placeholder": {
+      "typeName": "Wpisz nazwę",
+      "owner": "Wpisz min. 3 znaki",
+      "effectiveDate": "Wybierz datę rozpoczęcia",
+      "expirationDate": "Wybierz datę wygaśnięcia",
+      "application": "Wybierz aplikacje",
+      "entityType": "Wybierz typ obiektu",
+      "category": "Wybierz kategorię",
+      "description": "Dodaj opis",
+      "search": "Szukaj",
+      "value": "Uzupełnij wartości",
+      "operator": "Wybierz operator",
+      "conditions": "Wpisz min. 1 znak",
+      "separateValues": "Odziel wartości używając |",
+      "approver": "Wpisz min. 3 znaki",
+      "tooltip": {
+        "minSearchChar": "Wpisz min. 3 znaki"
+      }
+    },
+    "table": {
+      "header": {
+        "info": "Info",
+        "name": "Nazwa",
+        "application": "Aplikacja",
+        "owner": "Właściciel",
+        "entityType": "Typ",
+        "category": "Kategoria",
+        "activeWorkflows": "Aktywne",
+        "effectiveDate": "Data wejścia",
+        "expirationDate": "Data wygaśnięcia",
+        "actions": "Akcje",
+        "entityId": "ID podmiotu",
+        "initiator": "Inicjator",
+        "status": "Status",
+        "createdDate": "Data utworzenia",
+        "updatedDate": "Data aktualizacji"
+      },
+      "tooltip": {
+        "details": "Szczegóły"
+      },
+      "row": {}
+    },
+    "modal": {
+      "deleteWorkflowTitle": "Potwierdź usuwanie",
+      "deleteWorkflowSubTitle": "Potwierdź usunięcie wybranego Workflow",
+      "deleteWorkflowDescription": "Na pewno chcesz usunąć ten Workflow?"
+    },
+    "tab": {
+      "general": "Ogólne",
+      "predefinedConditions": "Zdefiniowane warunki",
+      "steps": "Kroki"
+    },
+    "status": {
+      "processing": "W trakcie",
+      "approved": "Zatwierdzony",
+      "accepted": "Zaakceptowany",
+      "rejected": "Odrzucony",
+      "onHold": "Wstrzymany"
+    }
+  },
+  "exchangeRates": {
+    "title": "Kursy walut",
+    "notification": {
+      "addExchangeRateSuccess": "Nowy kurs wymiany został pomyślnie dodany",
+      "editExchangeRateSuccess": "Pomyślnie zaktualizowano bieżący kurs wymiany",
+      "deleteExchangeRateSuccess": "Kurs wymiany został pomyślnie usunięty"
+    },
+    "modal": {
+      "addExchangeTitle": "Dodaj nowy kurs",
+      "editExchangeTitle": "Edytuj kurs",
+      "deleteExchangeTitle": "Usuń kurs",
+      "deleteExchangeDescription": "Czy na pewno chcesz usunąć bieżący kurs wymiany?"
+    },
+    "action": {
+      "addExchange": "Dodaj kurs"
+    },
+    "field": {
+      "fromCurrency": "Waluta źródłowa",
+      "toCurrency": "Waluta docelowa",
+      "exchange": "Kurs",
+      "convertTo": "Przelicz na"
+    },
+    "table": {
+      "header": {
+        "fromCurrency": "Wauluta źródłowa",
+        "toCurrency": "Waluta docelowa",
+        "exchangeRate": "Kurs"
+      }
+    },
+    "error": {
+      "get": "Wystapił nieoczekiwany problem podczas pobierania danych",
+      "post": "Wystapił nieoczekiwany problem podczas dodawania nowego kursu wymiany",
+      "put": "Wystapił nieoczekiwany problem podczas edycji kursu wymiany",
+      "delete": "Wystąpił nieoczekiwany problem podczas usuwania kursu wymiany"
+    }
+  },
+  "substitutions": {
+    "title": "Zastępstwa",
+    "notification": {
+      "addSubstitutionSuccess": "Nowe zastępstwo zostało pomyślnie dodane",
+      "editSubstitutionSuccess": "Pomyślnie zaktualizowano bieżące zastępstwo",
+      "deleteSubstitutionSuccess": "Zastępstwo zostało pomyślnie usunięte",
+      "userHasNoWorkflows": "Użytkownik nie jest przypisany do żadnych procesów"
+    },
+    "modal": {
+      "addSubstitutionTitle": "Dodaj nowe zastępstwo",
+      "editSubstitutionTitle": "Edytuj zastępstwo",
+      "deleteSubstitutionTitle": "Usuń zastępstwo",
+      "deleteSubstitutionDescription": "Czy na pewno chcesz usunąć bieżące zastępstwo użytkownika {{substituted}}?"
+    },
+    "action": {
+      "add": "Dodaj zastępstwo"
+    },
+    "field": {
+      "substituted": "Zastępowany",
+      "substituting": "Zastępujący",
+      "workflowDefinitionId": "Procesy",
+      "from": "Data od",
+      "to": "Data do"
+    },
+    "table": {
+      "filters": {
+        "substitutedId": "Zastępowany",
+        "substitutingId": "Zastępujący",
+        "date": "Zawiera datę",
+        "workflowDefinitionId": "Proces",
+        "historical": "Wygasłe"
+      },
+      "header": {
+        "substituted": "Zastępowany",
+        "substituting": "Zastępujący",
+        "from": "Data od",
+        "to": "Data do",
+        "workflowDefinitionName": "Proces"
+      }
+    },
+    "error": {
+      "get": "Wystapił nieoczekiwany problem podczas pobierania danych",
+      "getItem": "Wystąpił nieoczekiwany problem podczas pobierania danych aktualnego zastępstwa",
+      "post": "Wystapił nieoczekiwany problem podczas dodawania nowego zastępstwa",
+      "put": "Wystapił nieoczekiwany problem podczas edycji zastępstwa",
+      "delete": "Wystąpił nieoczekiwany problem podczas usuwania zastępstwa"
+    }
+  },
+  "holiday": {
+    "card": {
+      "department": "Dział",
+      "startDate": "Data rozpoczęcia",
+      "endDate": "Data zakończenia"
+    },
+    "action": {
+      "approve": "Zatwierdź",
+      "hold": "Wstrzymaj",
+      "reject": "Odrzuć"
+    },
+    "field": {
+      "comment": "Komentarz"
+    },
+    "notification": {
+      "confirmationTitle": "{{action}} potwierdzenie",
+      "provideComment": "Proszę podać komentarz do akcji {{comment}}"
+    }
+  }
+}
