@@ -1,0 +1,480 @@
+{
+  "item_not_found": "Element was not found",
+  "substitution_overlaping": "There is already a substitute for this user",
+  "page": {
+    "approvals": {
+      "my": "My approvals",
+      "all": "All approvals",
+      "details": "{{id}} Approval details - {{name}}",
+      "invoice": "{{id}} Document details",
+      "timeline": "Approval {{id}} timeline",
+      "history": "Approvals history",
+      "approve": "Accept approval",
+      "reject": "Reject approval"
+    },
+    "workflow": {
+      "definitions": "Workflow definitions",
+      "create": "Create workflow definition",
+      "edit": "Edit {{id}} workflow definition",
+      "copy": "Copy of {{id}} workflow definition",
+      "history": "History of {{id}} workflow definition"
+    },
+    "exchangeRates": {
+      "list": "Exchange rates"
+    },
+    "substitutions": {
+      "list": "Substitutions"
+    },
+    "error": {
+      "404": "Page not found"
+    }
+  },
+  "nav": {
+    "myApprovals": "My approvals",
+    "allApprovals": "All approvals",
+    "definitions": "Definitions",
+    "search": "Search",
+    "history": "History",
+    "exchangeRates": "Exchange rates",
+    "substitutions": "Substitutions"
+  },
+  "common": {
+    "noItemsFound": "No items found",
+    "save": "Save",
+    "cancel": "Cancel",
+    "copy": "Copy",
+    "close": "Close",
+    "delete": "Delete",
+    "edit": "Edit",
+    "back": "Back",
+    "goBack": "Go back",
+    "☢️ prev": "Previous",
+    "☢️ next": "Next",
+    "hide": "Hide",
+    "show": "Show",
+    "filters": "Filters",
+    "clearFilters": "Clear filters",
+    "search": "Search",
+    "moreDetails": "More details",
+    "readMore": "Read more",
+    "reject": "Reject",
+    "accept": "Accept",
+    "approve": "Approve",
+    "hold": "Hold",
+    "resultsPerPage": "Results per page",
+    "unsorted": "Unsorted",
+    "desc": "Descending",
+    "asc": "Ascending"
+  },
+  "validation": {
+    "workflow": {
+      "applicationIsRequired": "Application is required",
+      "☢️ approvedActionIsRequired": "Approved action is required",
+      "approverIsRequired": "Approver is required",
+      "categoryIsRequired": "Category is required",
+      "effectiveDateIsRequired": "Effective date is required",
+      "entityTypeIsRequired": "Entity type is required",
+      "nameIsRequired": "Name is required",
+      "☢️ rejectedActionIsRequired": "Rejected action is required",
+      "ownerIsRequired": "Owner is required"
+    },
+    "approval": {
+      "rejectCommentIsRequired": "Comment is required"
+    }
+  },
+  "approval": {
+    "details": "Item details",
+    "timeline": "Timeline",
+    "search": "Search",
+    "comment": "Comment",
+    "step": "Step {{step}}",
+    "timelineApprovers": "Approvers",
+    "noItemsFound": "No items found",
+    "history": "History",
+    "notification": {
+      "unknownEntityType": "Unknown Entity Type",
+      "couldNotShowDetails": "Could not show details",
+      "itemNotFound": "Item not found",
+      "acceptApproveInProgress": "Approval accepting is in progress",
+      "rejectApproveInProgress": "Approval rejecting is in progress",
+      "loading": "Loading",
+      "rejectConfirmationTitle": "Reject confirmation",
+      "rejectConfirmationDescription": "Please provide a comment for the reject action.",
+      "rejectedItemOfPoNumber": "You have rejected an item of PO Number {{orderNumber}}",
+      "haveRejected": "You have rejected {{message}}",
+      "rejected": "Rejected",
+      "holdConfirmationTitle": "Hold confirmation",
+      "holdConfirmationDescription": "Please provide a comment for the hold action.",
+      "holdItemOfPoNumber": "You have hold an item of PO Number {{orderNumber}}",
+      "onHold": "On hold",
+      "accepted": "Accepted",
+      "acceptedItemOfPoNumber": "You have accepted an item of PO Number {{orderNumber}}",
+      "haveAccepted": "You have accepted {{message}}"
+    },
+    "purchseOrderDetails": {
+      "name": "Name",
+      "crossReference": "Original Name",
+      "amount": "Amount",
+      "price": "Price",
+      "quantity": "Quantity",
+      "requestedDate": "Requested Date"
+    },
+    "action": {
+      "timeline": "Timeline",
+      "reject": "Reject",
+      "onHold": "On Hold",
+      "approve": "Approve",
+      "accept": "Accept",
+      "addAttachment": "Add Attachment"
+    },
+    "placeholder": {
+      "comment": "Type your comment",
+      "searchPhrase": "Search phrase",
+      "searchQuery": "Enter min. 3 chars"
+    },
+    "category": {
+      "pending": "Pending",
+      "overdue": "Overdue"
+    },
+    "filters": {
+      "status": "Status",
+      "date": "Date",
+      "query": "Keyword",
+      "category": "Category",
+      "dueDateFrom": "Due date from",
+      "dueDateTo": "Due date to",
+      "createdDateFrom": "Created date from",
+      "createdDateTo": "Created date to",
+      "customDateFrom": "Custom date from",
+      "customDateTo": "Custom date to",
+      "today": "Today",
+      "thisWeek": "This week",
+      "thisMonth": "This month",
+      "thisYear": "This year"
+    },
+    "table": {
+      "header": {
+        "category": "Category",
+        "dueDate": "Due date",
+        "status": "Status",
+        "OrderId": "Order Id",
+        "SupplierName": "Supplier Name",
+        "OpenAmount": "Amount",
+        "Currency": "Currency",
+        "Branch": "Branch",
+        "CompanyCode": "Company Code",
+        "name": "Name",
+        "amount": "Amount",
+        "Amount": "Amount",
+        "qty": "Qty",
+        "Quantity": "Quantity",
+        "price": "Price",
+        "step": "{{step}}",
+        "orderDetails": "Order Details",
+        "details": "Details",
+        "createdDate": "Created Date",
+        "InvoiceNumber": "Invoice Number"
+      },
+      "tooltip": {
+        "step": "Step"
+      },
+      "row": {
+        "workflowId": "Workflow ID: {{data}}",
+        "orderId": "Order ID: {{data}}",
+        "supplierName": "Supplier name: {{data}}",
+        "openAmount": "Open amount: {{data}}",
+        "amount": "Open amount: {{data}}"
+      }
+    },
+    "card": {
+      "openAmount": "Open Amount",
+      "poNumber": "PO Number",
+      "deliveryDate": "Created date"
+    },
+    "tab": {
+      "items": "Items",
+      "comments": "Comments",
+      "attachments": "Attachments"
+    },
+    "status": {
+      "overdue": "Overdue",
+      "onHold": "On hold",
+      "pending": "Pending",
+      "approved": "Approved",
+      "rejected": "Rejected",
+      "notStarted": "Not started",
+      "future": "Not started"
+    }
+  },
+  "workflow": {
+    "title": "Workflow list",
+    "history": "Workflow history",
+    "createNewWorkflow": "Create New Workflow",
+    "editWorkflow": "Edit workflow",
+    "comment": "Comment",
+    "where": "WHERE",
+    "or": "OR",
+    "and": "AND",
+    "step": "Step {{step}}",
+    "noItemsFound": "No items found",
+    "noResultsFoundDesc": "We can’t find any item matching your search.",
+    "timeline": {
+      "workflowDetails": "Workflow details",
+      "stepDetailsDescription": "Details regarding step information.",
+      "stepDetails": "Workflow step details",
+      "stepDescription": "Step description",
+      "step": "Step",
+      "noAdditionalInfo": "No additional info",
+      "dateTime": "Date and time"
+    },
+    "notification": {
+      "loading": "Loading",
+      "noResultsFoundDescription": "We can't find any item matching your search.",
+      "noWorkflowHistory": "No workflow history",
+      "deleteSuccess": "Success",
+      "deleteSuccessMessage": "Workflow deleted successfully",
+      "deletePending": "Deleting workflow",
+      "deletePendingMessage": "Please wait...",
+      "deleteError": "Error",
+      "deleteErrorMessage": "Failed to delete workflow",
+      "deleteGlobalError": "Failed to delete workflow"
+    },
+    "action": {
+      "showDeleted": "Show deleted",
+      "showExpired": "Show expired",
+      "createNewWorkflow": "Create New Workflow",
+      "addGroup": "Add group",
+      "addStep": "Add step",
+      "addCondition": "Add condition",
+      "addApprover": "+ Add approver"
+    },
+    "objectTypes": {
+      "PurchaseOrder": "Purchase Order",
+      "Holiday": "Holiday",
+      "Invoice": "Invoice"
+    },
+    "operator": {
+      "is": "is",
+      "isnot": "is not",
+      "in": "in",
+      "notin": "not in",
+      "contains": "contains",
+      "notcontains": "not contains",
+      "=": "=",
+      "!=": "!=",
+      ">": ">",
+      "<": "<",
+      ">=": ">=",
+      "<=": "<="
+    },
+    "field": {
+      "name": "Name",
+      "owner": "Owner",
+      "effectiveDate": "Effective Date",
+      "expirationDate": "Expiration Date",
+      "application": "Application",
+      "entityType": "Entity Type",
+      "category": "Category",
+      "categoryIcon": "Category icon",
+      "description": "Description",
+      "timeout": "Timeout (h)",
+      "approver": "Approver",
+      "notify": "Notify",
+      "purchaseOrder": {
+        "Branch": "Branch",
+        "CompanyCode": "Company Code",
+        "Currency": "Currency",
+        "CrossReference": "Original Name",
+        "CustomerNumber": "Customer Number",
+        "ItemAccount": "Item Account",
+        "ItemBranch": "Item Branch",
+        "ItemCurrency": "Item Currency",
+        "ItemCustomerNumber": "Item Customer Number",
+        "ItemDescription2": "Item Description 2",
+        "ItemIndex": "Item Index",
+        "ItemName": "Item Name",
+        "ItemNumber1": "Item Number 1",
+        "ItemNumber2": "Item Number 2",
+        "ItemNumber3": "Item Number 3",
+        "ItemOpenAmount": "Item Amount",
+        "ItemOpenAmountForeign": "Item Amount in Foreign Currency",
+        "ItemOrderDate": "Item Order Date",
+        "ItemPrice": "Item Price",
+        "ItemPromisedDate": "Item Promised Delivery Date",
+        "ItemQuantity": "Item Quantity",
+        "ItemRequestedDate": "Item Requested Date",
+        "ItemUM": "Item Unit of Measure",
+        "OpenAmount": "Amount",
+        "OpenAmountForeign": "Amount in Foreign Currency",
+        "OrderId": "Order ID",
+        "OrderNumber": "Order Number",
+        "OrderSuffix": "Order Suffix",
+        "OrderType": "Order Type",
+        "Price": "Price",
+        "SupplierName": "Supplier Name"
+      }
+    },
+    "placeholder": {
+      "typeName": "Type name",
+      "owner": "Enter min. 3 chars",
+      "effectiveDate": "Choose effective date",
+      "expirationDate": "Choose expiration date",
+      "application": "Choose application",
+      "entityType": "Choose entity type",
+      "category": "Choose category",
+      "description": "Add description",
+      "search": "Search",
+      "value": "Choose value",
+      "operator": "Choose operator",
+      "conditions": "Enter min. 1 char",
+      "separateValues": "Separate values using |",
+      "approver": "Enter min. 3 chars",
+      "tooltip": {
+        "minSearchChar": "Enter min. 3 chars"
+      }
+    },
+    "table": {
+      "header": {
+        "info": "Info",
+        "name": "Name",
+        "application": "Application",
+        "owner": "Owner",
+        "entityType": "Entity Type",
+        "category": "Category",
+        "activeWorkflows": "Active",
+        "effectiveDate": "Effective Date",
+        "expirationDate": "Expiration Date",
+        "actions": "Actions",
+        "entityId": "Entity Id",
+        "initiator": "Initiator",
+        "status": "Status",
+        "createdDate": "Created Date",
+        "updatedDate": "Updated Date"
+      },
+      "tooltip": {
+        "details": "Details"
+      },
+      "row": {}
+    },
+    "modal": {
+      "deleteWorkflowTitle": "Confrim Deletion",
+      "deleteWorkflowSubTitle": "Confirm deletion selected workflow",
+      "deleteWorkflowDescription": "Are you sure you want to delete this workflow?"
+    },
+    "tab": {
+      "general": "General",
+      "predefinedConditions": "Predefined conditions",
+      "steps": "Steps"
+    },
+    "status": {
+      "processing": "Processing",
+      "approved": "Approved",
+      "accepted": "Accepted",
+      "rejected": "Rejected",
+      "onHold": "On hold"
+    }
+  },
+  "exchangeRates": {
+    "title": "Exchange rates",
+    "notification": {
+      "addExchangeRateSuccess": "New exchange rate was successfully added",
+      "editExchangeRateSuccess": "Current exchange rate was successfully updated",
+      "deleteExchangeRateSuccess": "Exchange rate was successfully removed"
+    },
+    "modal": {
+      "addExchangeTitle": "Add new exchange",
+      "editExchangeTitle": "Edit exchange",
+      "deleteExchangeTitle": "Delete exchange",
+      "deleteExchangeDescription": "Are you sure you want to remove the current exchange rate?"
+    },
+    "action": {
+      "addExchange": "Add exchange"
+    },
+    "field": {
+      "fromCurrency": "From currency",
+      "toCurrency": "To currency",
+      "exchange": "Exchange rate",
+      "convertTo": "Convert to"
+    },
+    "table": {
+      "header": {
+        "fromCurrency": "From currency",
+        "toCurrency": "To currency",
+        "exchangeRate": "Exchange"
+      }
+    },
+    "error": {
+      "get": "An unexpected error occured during data downloading",
+      "post": "An unexpected error occured during adding new exchange",
+      "put": "An unexpected error occured during modifing current exchange",
+      "delete": "An unexpected error occured during deleting exchange"
+    }
+  },
+  "substitutions": {
+    "title": "Substitutions",
+    "notification": {
+      "addSubstitutionSuccess": "New substitution was successfully added",
+      "editSubstitutionSuccess": "Current substitution was successfully updated",
+      "deleteSubstitutionSuccess": "Substitution was successfully removed",
+      "userHasNoWorkflows": "User is not assigned to any workflow"
+    },
+    "modal": {
+      "addSubstitutionTitle": "Add new substitution",
+      "editSubstitutionTitle": "Edit substitution",
+      "deleteSubstitutionTitle": "Delete substitution",
+      "deleteSubstitutionDescription": "Are you sure you want to delete the current replacement of user {{substituted}}?"
+    },
+    "action": {
+      "add": "Add substitution"
+    },
+    "field": {
+      "substituted": "User",
+      "substituting": "Replacement",
+      "workflowDefinitionId": "Workflow definitions",
+      "from": "Date from",
+      "to": "Date to"
+    },
+    "table": {
+      "filters": {
+        "substitutedId": "User",
+        "substitutingId": "Replacement",
+        "date": "Include date",
+        "workflowDefinitionId": "Workflows",
+        "historical": "Expired"
+      },
+      "header": {
+        "substituted": "User",
+        "substituting": "Replacement",
+        "from": "Date from",
+        "to": "Date to",
+        "workflowDefinitionName": "Workflows"
+      }
+    },
+    "error": {
+      "get": "An unexpected error occured during data downloading",
+      "getItem": "An unexpected error occured during downloading data of current substitution",
+      "post": "An unexpected error occured during adding new substitution",
+      "put": "An unexpected error occured during modifing current substitution",
+      "delete": "An unexpected error occured during deleting substitution"
+    }
+  },
+  "holiday": {
+    "card": {
+      "department": "Department",
+      "startDate": "Start Date",
+      "endDate": "End Date"
+    },
+    "action": {
+      "approve": "Approve",
+      "hold": "Hold",
+      "reject": "Reject"
+    },
+    "field": {
+      "comment": "Comment"
+    },
+    "notification": {
+      "confirmationTitle": "{{action}} confirmation",
+      "provideComment": "Please provide comment for this action {{comment}}"
+    }
+  }
+}
