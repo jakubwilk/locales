@@ -1,0 +1,480 @@
+{
+  "item_not_found": "Položka nebyla nalezena",
+  "substitution_overlaping": "Pro tohoto uživatele již existuje zástupce",
+  "page": {
+    "approvals": {
+      "my": "Moje schválení",
+      "all": "Všechna schválení",
+      "details": "{{id}} Detaily schválení - {{name}}",
+      "invoice": "{{id}} Detaily dokumentu",
+      "timeline": "Časová osa schválení {{id}}",
+      "history": "Historie schválení",
+      "approve": "Schválit",
+      "reject": "Zamítnout"
+    },
+    "workflow": {
+      "definitions": "Definice workflow",
+      "create": "Vytvořit definici workflow",
+      "edit": "Upravit definici workflow {{id}}",
+      "copy": "Kopie definice workflow {{id}}",
+      "history": "Historie definice workflow {{id}}"
+    },
+    "exchangeRates": {
+      "list": "Směnné kurzy"
+    },
+    "substitutions": {
+      "list": "Zástupci"
+    },
+    "error": {
+      "404": "Stránka nenalezena"
+    }
+  },
+  "nav": {
+    "myApprovals": "Moje schválení",
+    "allApprovals": "Všechna schválení",
+    "definitions": "Definice",
+    "search": "Hledat",
+    "history": "Historie",
+    "exchangeRates": "Směnné kurzy",
+    "substitutions": "Zástupci"
+  },
+  "common": {
+    "noItemsFound": "Nebyly nalezeny žádné položky",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "copy": "Kopírovat",
+    "close": "Zavřít",
+    "delete": "Smazat",
+    "edit": "Upravit",
+    "back": "Zpět",
+    "goBack": "Zpět",
+    "☢️ prev": "Předchozí",
+    "☢️ next": "Další",
+    "hide": "Skrýt",
+    "show": "Zobrazit",
+    "filters": "Filtry",
+    "clearFilters": "Vymazat filtry",
+    "search": "Hledat",
+    "moreDetails": "Více detailů",
+    "readMore": "Číst dále",
+    "reject": "Zamítnout",
+    "accept": "Přijmout",
+    "approve": "Schválit",
+    "hold": "Pozastavit",
+    "resultsPerPage": "Výsledků na stránku",
+    "unsorted": "Netříděno",
+    "desc": "Sestupně",
+    "asc": "Vzestupně"
+  },
+  "validation": {
+    "workflow": {
+      "applicationIsRequired": "Aplikace je povinná",
+      "☢️ approvedActionIsRequired": "Akce schválení je povinná",
+      "approverIsRequired": "Schvalovatel je povinný",
+      "categoryIsRequired": "Kategorie je povinná",
+      "effectiveDateIsRequired": "Datum platnosti je povinné",
+      "entityTypeIsRequired": "Typ entity je povinný",
+      "nameIsRequired": "Název je povinný",
+      "☢️ rejectedActionIsRequired": "Akce zamítnutí je povinná",
+      "ownerIsRequired": "Vlastník je povinný"
+    },
+    "approval": {
+      "rejectCommentIsRequired": "Komentář je povinný"
+    }
+  },
+  "approval": {
+    "details": "Detaily položky",
+    "timeline": "Časová osa",
+    "search": "Hledat",
+    "comment": "Komentář",
+    "step": "Krok {{step}}",
+    "timelineApprovers": "Schvalovatelé",
+    "noItemsFound": "Nebyly nalezeny žádné položky",
+    "history": "Historie",
+    "notification": {
+      "unknownEntityType": "Neznámý typ entity",
+      "couldNotShowDetails": "Nelze zobrazit detaily",
+      "itemNotFound": "Položka nebyla nalezena",
+      "acceptApproveInProgress": "Probíhá schvalování",
+      "rejectApproveInProgress": "Probíhá zamítání",
+      "loading": "Načítání",
+      "rejectConfirmationTitle": "Potvrzení zamítnutí",
+      "rejectConfirmationDescription": "Zadejte prosím komentář k akci zamítnutí.",
+      "rejectedItemOfPoNumber": "Zamítli jste položku s číslem objednávky {{orderNumber}}",
+      "haveRejected": "Zamítli jste {{message}}",
+      "rejected": "Zamítnuto",
+      "holdConfirmationTitle": "Potvrzení pozastavení",
+      "holdConfirmationDescription": "Zadejte prosím komentář k akci pozastavení.",
+      "holdItemOfPoNumber": "Pozastavili jste položku s číslem objednávky {{orderNumber}}",
+      "onHold": "Pozastaveno",
+      "accepted": "Přijato",
+      "acceptedItemOfPoNumber": "Přijali jste položku s číslem objednávky {{orderNumber}}",
+      "haveAccepted": "Přijali jste {{message}}"
+    },
+    "purchseOrderDetails": {
+      "name": "Název",
+      "crossReference": "Původní název",
+      "amount": "Částka",
+      "price": "Cena",
+      "quantity": "Množství",
+      "requestedDate": "Požadované datum"
+    },
+    "action": {
+      "timeline": "Časová osa",
+      "reject": "Zamítnout",
+      "onHold": "Pozastavit",
+      "approve": "Schválit",
+      "accept": "Přijmout",
+      "addAttachment": "Přidat přílohu"
+    },
+    "placeholder": {
+      "comment": "Zadejte svůj komentář",
+      "searchPhrase": "Hledaná fráze",
+      "searchQuery": "Zadejte min. 3 znaky"
+    },
+    "category": {
+      "pending": "Čeká na vyřízení",
+      "overdue": "Po splatnosti"
+    },
+    "filters": {
+      "status": "Stav",
+      "date": "Datum",
+      "query": "Klíčové slovo",
+      "category": "Kategorie",
+      "dueDateFrom": "Datum splatnosti od",
+      "dueDateTo": "Datum splatnosti do",
+      "createdDateFrom": "Datum vytvoření od",
+      "createdDateTo": "Datum vytvoření do",
+      "customDateFrom": "Vlastní datum od",
+      "customDateTo": "Vlastní datum do",
+      "today": "Dnes",
+      "thisWeek": "Tento týden",
+      "thisMonth": "Tento měsíc",
+      "thisYear": "Tento rok"
+    },
+    "table": {
+      "header": {
+        "category": "Kategorie",
+        "dueDate": "Datum splatnosti",
+        "status": "Stav",
+        "OrderId": "ID objednávky",
+        "SupplierName": "Název dodavatele",
+        "OpenAmount": "Částka",
+        "Currency": "Měna",
+        "Branch": "Pobočka",
+        "CompanyCode": "Kód společnosti",
+        "name": "Název",
+        "amount": "Částka",
+        "Amount": "Částka",
+        "qty": "Množství",
+        "Quantity": "Množství",
+        "price": "Cena",
+        "step": "{{step}}",
+        "orderDetails": "Detaily objednávky",
+        "details": "Detaily",
+        "createdDate": "Datum vytvoření",
+        "InvoiceNumber": "Číslo faktury"
+      },
+      "tooltip": {
+        "step": "Krok"
+      },
+      "row": {
+        "workflowId": "ID workflow: {{data}}",
+        "orderId": "ID objednávky: {{data}}",
+        "supplierName": "Název dodavatele: {{data}}",
+        "openAmount": "Otevřená částka: {{data}}",
+        "amount": "Otevřená částka: {{data}}"
+      }
+    },
+    "card": {
+      "openAmount": "Otevřená částka",
+      "poNumber": "Číslo objednávky",
+      "deliveryDate": "Datum vytvoření"
+    },
+    "tab": {
+      "items": "Položky",
+      "comments": "Komentáře",
+      "attachments": "Přílohy"
+    },
+    "status": {
+      "overdue": "Po splatnosti",
+      "onHold": "Pozastaveno",
+      "pending": "Čeká na vyřízení",
+      "approved": "Schváleno",
+      "rejected": "Zamítnuto",
+      "notStarted": "Nezahájeno",
+      "future": "Nezahájeno"
+    }
+  },
+  "workflow": {
+    "title": "Seznam workflow",
+    "history": "Historie workflow",
+    "createNewWorkflow": "Vytvořit nový workflow",
+    "editWorkflow": "Upravit workflow",
+    "comment": "Komentář",
+    "where": "KDE",
+    "or": "NEBO",
+    "and": "A",
+    "step": "Krok {{step}}",
+    "noItemsFound": "Nebyly nalezeny žádné položky",
+    "noResultsFoundDesc": "Nemůžeme najít žádnou položku odpovídající vašemu vyhledávání.",
+    "timeline": {
+      "workflowDetails": "Detaily workflow",
+      "stepDetailsDescription": "Detaily týkající se informací o kroku.",
+      "stepDetails": "Detaily kroku workflow",
+      "stepDescription": "Popis kroku",
+      "step": "Krok",
+      "noAdditionalInfo": "Žádné další informace",
+      "dateTime": "Datum a čas"
+    },
+    "notification": {
+      "loading": "Načítání",
+      "noResultsFoundDescription": "Nemůžeme najít žádnou položku odpovídající vašemu vyhledávání.",
+      "noWorkflowHistory": "Žádná historie workflow",
+      "deleteSuccess": "Úspěch",
+      "deleteSuccessMessage": "Workflow byl úspěšně smazán",
+      "deletePending": "Mazání workflow",
+      "deletePendingMessage": "Čekejte prosím...",
+      "deleteError": "Chyba",
+      "deleteErrorMessage": "Nepodařilo se smazat workflow",
+      "deleteGlobalError": "Nepodařilo se smazat workflow"
+    },
+    "action": {
+      "showDeleted": "Zobrazit smazané",
+      "showExpired": "Zobrazit expirované",
+      "createNewWorkflow": "Vytvořit nový workflow",
+      "addGroup": "Přidat skupinu",
+      "addStep": "Přidat krok",
+      "addCondition": "Přidat podmínku",
+      "addApprover": "+ Přidat schvalovatele"
+    },
+    "objectTypes": {
+      "PurchaseOrder": "Objednávka",
+      "Holiday": "Dovolená",
+      "Invoice": "Faktura"
+    },
+    "operator": {
+      "is": "je",
+      "isnot": "není",
+      "in": "v",
+      "notin": "není v",
+      "contains": "obsahuje",
+      "notcontains": "neobsahuje",
+      "=": "=",
+      "!=": "!=",
+      ">": ">",
+      "<": "<",
+      ">=": ">=",
+      "<=": "<="
+    },
+    "field": {
+      "name": "Název",
+      "owner": "Vlastník",
+      "effectiveDate": "Datum platnosti",
+      "expirationDate": "Datum expirace",
+      "application": "Aplikace",
+      "entityType": "Typ entity",
+      "category": "Kategorie",
+      "categoryIcon": "Ikona kategorie",
+      "description": "Popis",
+      "timeout": "Časový limit (h)",
+      "approver": "Schvalovatel",
+      "notify": "Upozornit",
+      "purchaseOrder": {
+        "Branch": "Pobočka",
+        "CompanyCode": "Kód společnosti",
+        "Currency": "Měna",
+        "CrossReference": "Původní název",
+        "CustomerNumber": "Číslo zákazníka",
+        "ItemAccount": "Účet položky",
+        "ItemBranch": "Pobočka položky",
+        "ItemCurrency": "Měna položky",
+        "ItemCustomerNumber": "Číslo zákazníka položky",
+        "ItemDescription2": "Popis položky 2",
+        "ItemIndex": "Index položky",
+        "ItemName": "Název položky",
+        "ItemNumber1": "Číslo položky 1",
+        "ItemNumber2": "Číslo položky 2",
+        "ItemNumber3": "Číslo položky 3",
+        "ItemOpenAmount": "Částka položky",
+        "ItemOpenAmountForeign": "Částka položky v cizí měně",
+        "ItemOrderDate": "Datum objednávky položky",
+        "ItemPrice": "Cena položky",
+        "ItemPromisedDate": "Datum slíbeného dodání položky",
+        "ItemQuantity": "Množství položky",
+        "ItemRequestedDate": "Požadované datum položky",
+        "ItemUM": "Jednotka míry položky",
+        "OpenAmount": "Částka",
+        "OpenAmountForeign": "Částka v cizí měně",
+        "OrderId": "ID objednávky",
+        "OrderNumber": "Číslo objednávky",
+        "OrderSuffix": "Přípona objednávky",
+        "OrderType": "Typ objednávky",
+        "Price": "Cena",
+        "SupplierName": "Název dodavatele"
+      }
+    },
+    "placeholder": {
+      "typeName": "Zadejte název",
+      "owner": "Zadejte min. 3 znaky",
+      "effectiveDate": "Vyberte datum platnosti",
+      "expirationDate": "Vyberte datum expirace",
+      "application": "Vyberte aplikaci",
+      "entityType": "Vyberte typ entity",
+      "category": "Vyberte kategorii",
+      "description": "Přidejte popis",
+      "search": "Hledat",
+      "value": "Vyberte hodnotu",
+      "operator": "Vyberte operátor",
+      "conditions": "Zadejte min. 1 znak",
+      "separateValues": "Oddělte hodnoty pomocí |",
+      "approver": "Zadejte min. 3 znaky",
+      "tooltip": {
+        "minSearchChar": "Zadejte min. 3 znaky"
+      }
+    },
+    "table": {
+      "header": {
+        "info": "Informace",
+        "name": "Název",
+        "application": "Aplikace",
+        "owner": "Vlastník",
+        "entityType": "Typ entity",
+        "category": "Kategorie",
+        "activeWorkflows": "Aktivní",
+        "effectiveDate": "Datum platnosti",
+        "expirationDate": "Datum expirace",
+        "actions": "Akce",
+        "entityId": "ID entity",
+        "initiator": "Iniciátor",
+        "status": "Stav",
+        "createdDate": "Datum vytvoření",
+        "updatedDate": "Datum aktualizace"
+      },
+      "tooltip": {
+        "details": "Detaily"
+      },
+      "row": {}
+    },
+    "modal": {
+      "deleteWorkflowTitle": "Potvrdit smazání",
+      "deleteWorkflowSubTitle": "Potvrďte smazání vybraného workflow",
+      "deleteWorkflowDescription": "Opravdu chcete smazat tento workflow?"
+    },
+    "tab": {
+      "general": "Obecné",
+      "predefinedConditions": "Předdefinované podmínky",
+      "steps": "Kroky"
+    },
+    "status": {
+      "processing": "Zpracovává se",
+      "approved": "Schváleno",
+      "accepted": "Přijato",
+      "rejected": "Zamítnuto",
+      "onHold": "Pozastaveno"
+    }
+  },
+  "exchangeRates": {
+    "title": "Směnné kurzy",
+    "notification": {
+      "addExchangeRateSuccess": "Nový směnný kurz byl úspěšně přidán",
+      "editExchangeRateSuccess": "Aktuální směnný kurz byl úspěšně aktualizován",
+      "deleteExchangeRateSuccess": "Směnný kurz byl úspěšně odebrán"
+    },
+    "modal": {
+      "addExchangeTitle": "Přidat nový směnný kurz",
+      "editExchangeTitle": "Upravit směnný kurz",
+      "deleteExchangeTitle": "Smazat směnný kurz",
+      "deleteExchangeDescription": "Opravdu chcete odebrat aktuální směnný kurz?"
+    },
+    "action": {
+      "addExchange": "Přidat směnný kurz"
+    },
+    "field": {
+      "fromCurrency": "Z měny",
+      "toCurrency": "Do měny",
+      "exchange": "Směnný kurz",
+      "convertTo": "Převést na"
+    },
+    "table": {
+      "header": {
+        "fromCurrency": "Z měny",
+        "toCurrency": "Do měny",
+        "exchangeRate": "Směnný kurz"
+      }
+    },
+    "error": {
+      "get": "Při stahování dat došlo k neočekávané chybě",
+      "post": "Při přidávání nového směnného kurzu došlo k neočekávané chybě",
+      "put": "Při úpravě aktuálního směnného kurzu došlo k neočekávané chybě",
+      "delete": "Při mazání směnného kurzu došlo k neočekávané chybě"
+    }
+  },
+  "substitutions": {
+    "title": "Zástupci",
+    "notification": {
+      "addSubstitutionSuccess": "Nový zástupce byl úspěšně přidán",
+      "editSubstitutionSuccess": "Aktuální zástupce byl úspěšně aktualizován",
+      "deleteSubstitutionSuccess": "Zástupce byl úspěšně odebrán",
+      "userHasNoWorkflows": "Uživatel není přiřazen k žádnému workflow"
+    },
+    "modal": {
+      "addSubstitutionTitle": "Přidat nového zástupce",
+      "editSubstitutionTitle": "Upravit zástupce",
+      "deleteSubstitutionTitle": "Smazat zástupce",
+      "deleteSubstitutionDescription": "Opravdu chcete smazat aktuální nahrazení uživatele {{substituted}}?"
+    },
+    "action": {
+      "add": "Přidat zástupce"
+    },
+    "field": {
+      "substituted": "Uživatel",
+      "substituting": "Zástupce",
+      "workflowDefinitionId": "Definice workflow",
+      "from": "Datum od",
+      "to": "Datum do"
+    },
+    "table": {
+      "filters": {
+        "substitutedId": "Uživatel",
+        "substitutingId": "Zástupce",
+        "date": "Zahrnout datum",
+        "workflowDefinitionId": "Workflow",
+        "historical": "Expirované"
+      },
+      "header": {
+        "substituted": "Uživatel",
+        "substituting": "Zástupce",
+        "from": "Datum od",
+        "to": "Datum do",
+        "workflowDefinitionName": "Workflow"
+      }
+    },
+    "error": {
+      "get": "Při stahování dat došlo k neočekávané chybě",
+      "getItem": "Při stahování dat aktuálního zástupce došlo k neočekávané chybě",
+      "post": "Při přidávání nového zástupce došlo k neočekávané chybě",
+      "put": "Při úpravě aktuálního zástupce došlo k neočekávané chybě",
+      "delete": "Při mazání zástupce došlo k neočekávané chybě"
+    }
+  },
+  "holiday": {
+    "card": {
+      "department": "Oddělení",
+      "startDate": "Datum zahájení",
+      "endDate": "Datum ukončení"
+    },
+    "action": {
+      "approve": "Schválit",
+      "hold": "Pozastavit",
+      "reject": "Zamítnout"
+    },
+    "field": {
+      "comment": "Komentář"
+    },
+    "notification": {
+      "confirmationTitle": "Potvrzení {{action}}",
+      "provideComment": "Zadejte prosím komentář k této akci {{comment}}"
+    }
+  }
+}
