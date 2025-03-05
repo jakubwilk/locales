@@ -154,7 +154,7 @@
     },
     "table": {
       "header": {
-        "category": "Kategoria TEST",
+        "category": "Kategoria",
         "dueDate": "Termin odp.",
         "status": "Status",
         "OrderId": "ID Zamówienia",
