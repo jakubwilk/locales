@@ -154,7 +154,7 @@
     },
     "table": {
       "header": {
-        "category": "Kategorie TEST",
+        "category": "Kategorie TEST2",
         "dueDate": "Datum splatnosti",
         "status": "Stav",
         "OrderId": "ID objednávky",
