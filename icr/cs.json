@@ -1,0 +1,180 @@
+{
+  "page": {
+    "home": "Domů",
+    "documents": "Dokumenty",
+    "tuning": "Ladění",
+    "addTuning": "Přidat nový vyladěný prompt",
+    "editTuning": "Upravit prompt {{type}}"
+  },
+  "nav": {
+    "home": "Domů",
+    "documents": "Dokumenty",
+    "tuning": "Ladění"
+  },
+  "common": {
+    "filters": "Filtry",
+    "clearFilters": "Vymazat filtry",
+    "goBack": "Zpět",
+    "unsorted": "Netříděno",
+    "desc": "Sestupně",
+    "asc": "Vzestupně",
+    "addNew": "Přidat nový",
+    "delete": "Smazat",
+    "save": "Uložit",
+    "cancel": "Zrušit",
+    "print": "Tisknout",
+    "send": "Odeslat",
+    "details": "Detaily",
+    "close": "Zavřít",
+    "edit": "Upravit",
+    "download": "Stáhnout",
+    "open": "Otevřít",
+    "saveAs": "Uložit jako",
+    "setActive": "Nastavit jako aktivní",
+    "back": "Zpět",
+    "noData": "Žádná data",
+    "noFileToShow": "Žádný soubor k zobrazení",
+    "refresh": "Obnovit"
+  },
+  "dropzone": {
+    "title": "Přetáhněte soubor sem nebo klikněte pro výběr",
+    "description": "Soubor by neměl překročit 5 MB"
+  },
+  "notifications": {
+    "newPromptSelected": "Nový prompt vybrán"
+  },
+  "documents": {
+    "details": "Detaily",
+    "tableHeaders": {
+      "documentType": "Typ",
+      "name": "Název",
+      "basePromptName": "Základní prompt",
+      "tunedPromptName": "Vyladěný prompt",
+      "registrationDate": "Datum registrace",
+      "lastUpdatedBy": "Naposledy aktualizováno",
+      "lastUpdatedDate": "Datum aktualizace",
+      "productDescription": "Popis produktu",
+      "quantity": "Množství",
+      "shipmentNumber": "Číslo zásilky",
+      "totalNet": "Celkem netto",
+      "identifier": "Identifikátor",
+      "status": "Stav"
+    },
+    "filters": {
+      "error": {
+        "unableToGetListData": "Při stahování dat do seznamu došlo k problému"
+      },
+      "documentType": "Typ",
+      "name": "Název",
+      "basePrompt": "Základní prompt",
+      "tunedPrompt": "Vyladěný prompt",
+      "registrationDateFrom": "Datum registrace od",
+      "registrationDateTo": "Datum registrace do",
+      "uploadedBy": "Nahráno uživatelem",
+      "metadata": "Metadata",
+      "status": "Stav",
+      "identifier": "Identifikátor"
+    },
+    "sidebar": {
+      "documentType": "Typ",
+      "name": "Název",
+      "basePromptName": "Základní prompt",
+      "tunedPromptName": "Vyladěný prompt",
+      "identifierPromptName": "Prompt identifikátoru",
+      "registrationDate": "Datum registrace",
+      "lastUpdatedBy": "Naposledy aktualizováno",
+      "lastUpdatedDate": "Datum aktualizace",
+      "metadata": "Metadata",
+      "result": "Výsledek",
+      "invoiceData": "Data faktury",
+      "invoiceLines": "Řádky faktury",
+      "invalidJson": "Neplatný JSON",
+      "identifier": "Identifikátor"
+    },
+    "action": {
+      "upload": "Nahrát"
+    },
+    "modal": {
+      "uploadDocumentTitle": "Nahrát dokument",
+      "selectDocumentTypePlaceholder": "Vyberte typ dokumentu"
+    },
+    "notification": {
+      "uploadedDocument": "Dokument byl úspěšně nahrán",
+      "uploadError": "Při nahrávání dokumentu došlo k problému",
+      "deleteDocument": "Dokument byl úspěšně smazán"
+    },
+    "validation": {
+      "missingFile": "Chybí soubor",
+      "missingDocumentType": "Chybí typ dokumentu"
+    }
+  },
+  "prompts": {
+    "tableHeaders": {
+      "promptType": "Typ promptu",
+      "identifier": "Identifikátor",
+      "name": "Název",
+      "version": "Verze",
+      "isActive": "Aktivní",
+      "lastUpdatedBy": "Naposledy aktualizováno",
+      "lastUpdatedDate": "Datum aktualizace"
+    },
+    "modal": {
+      "promptDeletion": "Smazat prompt",
+      "confirmPromptDeletion": "Potvrdit smazání promptu"
+    }
+  },
+  "tuning": {
+    "text": "Text",
+    "identifier": "Identifikátor",
+    "proces": "Proces",
+    "fields": "Pole",
+    "documentType": "Typ dokumentu: {{type}}",
+    "identifierType": "Identifikátor: {{identifier}}",
+    "requirements": "Požadavky",
+    "actions": "Akce",
+    "resultEmptyInfo": "Chcete-li zobrazit data, nejprve nahrajte dokument",
+    "dataLoading": "Načítání dat...",
+    "nameAndVersion": "Název: {{name}} | Verze: {{version}}",
+    "identifierArea": "Identifikátor",
+    "action": {
+      "add": "Přidat nový vyladěný prompt",
+      "active": "Aktivní"
+    },
+    "modal": {
+      "name": "Název",
+      "saveAs": "Uložit jako",
+      "saveNewPrompt": "Uložit nový prompt",
+      "chooseNewPrompt": "Vybrat nový prompt",
+      "pick": "Vybrat",
+      "tableHeaders": {
+        "name": "Název",
+        "version": "Verze",
+        "lastUpdatedDate": "Datum poslední aktualizace"
+      }
+    },
+    "filters": {
+      "promptTypeId": "Typ promptu",
+      "name": "Název",
+      "identifier": "Identifikátor",
+      "version": "Verze",
+      "isActive": "Aktivní",
+      "lastUpdatedDateFrom": "Naposledy aktualizováno od",
+      "lastUpdatedDateTo": "Naposledy aktualizováno do",
+      "options": {
+        "isActive": "Aktivní",
+        "isInactive": "Neaktivní"
+      }
+    },
+    "notification": {
+      "createPrompt": "Nový prompt byl úspěšně uložen",
+      "addSuccess": "Vyladěný prompt byl úspěšně vytvořen",
+      "editSuccess": "Prompt byl úspěšně aktualizován",
+      "activeSuccess": "Prompt byl úspěšně aktivován",
+      "deletePrompt": "Prompt byl úspěšně smazán",
+      "missingIdentifier": "Byl odeslán nesprávný soubor, chybí identifikátor dokumentu.\nAkce pro prompt jsou blokovány, odešlete prosím správný dokument",
+      "differentIdentifier": "Byl detekován nový identifikátor dokumentu, úpravy promptu se použijí na nový soubor",
+      "incorrectIdentifierPrompt": "Při čtení identifikátoru dokumentu došlo k problému, změňte obsah promptu identifikátoru a zkuste to znovu",
+      "incorrectFileIdentifier": "Zpracování dokumentu selhalo pro identifikátor dokumentu: <strong>{{fileId}}</strong>.\nZkuste to znovu nebo kontaktujte správce systému"
+    }
+  }
+}
