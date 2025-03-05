@@ -1,0 +1,181 @@
+{
+  "page": {
+    "home": "Home",
+    "documents": "Documents",
+    "tuning": "Tuning",
+    "addTuning": "Add new tuned prompt",
+    "editTuning": "Edit {{type}} prompt"
+  },
+  "nav": {
+    "home": "Home",
+    "documents": "Documents",
+    "tuning": "Tuning"
+  },
+  "common": {
+    "filters": "Filters",
+    "clearFilters": "Clear filters",
+    "goBack": "Go back",
+    "unsorted": "Unsorted",
+    "desc": "Descending",
+    "asc": "Ascending",
+    "addNew": "Add new",
+    "delete": "Delete",
+    "save": "Save",
+    "cancel": "Cancel",
+    "print": "Print",
+    "send": "Send",
+    "details": "Details",
+    "close": "Close",
+    "edit": "Edit",
+    "download": "Download",
+    "open": "Open",
+    "saveAs": "Save as",
+    "setActive": "Set active",
+    "back": "Back",
+    "noData": "No data",
+    "noFileToShow": "No file to show",
+    "refresh": "Refresh",
+    "invalidJson": "Invalid JSON"
+  },
+  "dropzone": {
+    "title": "Drag file here or click to select",
+    "description": "File should not exceed 5mb"
+  },
+  "notifications": {
+    "newPromptSelected": "New prompt selected"
+  },
+  "documents": {
+    "details": "Details",
+    "tableHeaders": {
+      "documentType": "Type",
+      "name": "Name",
+      "basePromptName": "Base prompt",
+      "tunedPromptName": "Tuned prompt ",
+      "registrationDate": "Registration date",
+      "lastUpdatedBy": "Last updated",
+      "lastUpdatedDate": "Updated date",
+      "productDescription": "Product description",
+      "quantity": "Quantity",
+      "shipmentNumber": "Shipment number",
+      "totalNet": "Total net",
+      "identifier": "Identifier",
+      "status": "Status"
+    },
+    "filters": {
+      "error": {
+        "unableToGetListData": "There was a problem downloading data to the list"
+      },
+      "documentType": "Type",
+      "name": "Name",
+      "basePrompt": "Base prompt",
+      "tunedPrompt": "Tuned prompt",
+      "registrationDateFrom": "Registration date from",
+      "registrationDateTo": "Registration date to",
+      "uploadedBy": "Uploaded by",
+      "metadata": "Metadata",
+      "status": "Status",
+      "identifier": "Identifier"
+    },
+    "sidebar": {
+      "documentType": "Type",
+      "name": "Name",
+      "basePromptName": "Base prompt",
+      "tunedPromptName": "Tuned prompt",
+      "identifierPromptName": "Identifier prompt",
+      "registrationDate": "Registration date",
+      "lastUpdatedBy": "Last updated",
+      "lastUpdatedDate": "Updated date",
+      "metadata": "Metadata",
+      "result": "Result",
+      "invoiceData": "Invoice data",
+      "invoiceLines": "Invoice lines",
+      "invalidJson": "Invalid JSON",
+      "identifier": "Identifier"
+    },
+    "action": {
+      "upload": "Upload"
+    },
+    "modal": {
+      "uploadDocumentTitle": "Upload document",
+      "selectDocumentTypePlaceholder": "Select document type"
+    },
+    "notification": {
+      "uploadedDocument": "Document was successfully uploaded",
+      "uploadError": "There was a problem with uploading the document",
+      "deleteDocument": "Document was successfully deleted"
+    },
+    "validation": {
+      "missingFile": "Missing file",
+      "missingDocumentType": "Missing document type"
+    }
+  },
+  "prompts": {
+    "tableHeaders": {
+      "promptType": "Prompt type",
+      "identifier": "Identifier",
+      "name": "Name",
+      "version": "Version",
+      "isActive": "Active",
+      "lastUpdatedBy": "Last updated",
+      "lastUpdatedDate": "Updated date"
+    },
+    "modal": {
+      "promptDeletion": "Delete prompt",
+      "confirmPromptDeletion": "Confirm prompt deletion"
+    }
+  },
+  "tuning": {
+    "text": "Text",
+    "identifier": "Identifier",
+    "proces": "Proces",
+    "fields": "Fields",
+    "documentType": "Document type: {{type}}",
+    "identifierType": "Identifier: {{identifier}}",
+    "requirements": "Requirements",
+    "actions": "Actions",
+    "resultEmptyInfo": "To see the data, first upload the document",
+    "dataLoading": "Data loading...",
+    "nameAndVersion": "Name: {{name}} | Version: {{version}}",
+    "identifierArea": "Identifier",
+    "action": {
+      "add": "Add new tuned prompt",
+      "active": "Active"
+    },
+    "modal": {
+      "name": "Name",
+      "saveAs": "Save as",
+      "saveNewPrompt": "Save new prompt",
+      "chooseNewPrompt": "Choose new prompt",
+      "pick": "Choose",
+      "tableHeaders": {
+        "name": "Name",
+        "version": "Vesrion",
+        "lastUpdatedDate": "Last updated date"
+      }
+    },
+    "filters": {
+      "promptTypeId": "Prompt type",
+      "name": "Name",
+      "identifier": "Identifier",
+      "version": "Version",
+      "isActive": "Active",
+      "lastUpdatedDateFrom": "Last updated from",
+      "lastUpdatedDateTo": "Last updated to",
+      "options": {
+        "isActive": "Active",
+        "isInactive": "Inactive"
+      }
+    },
+    "notification": {
+      "createPrompt": "New prompt was successfully saved",
+      "addSuccess": "Tuned prompt was successfully created",
+      "editSuccess": "Prompt was successfully updated",
+      "activeSuccess": "Prompt was successfully activated",
+      "deletePrompt": "Prompt was successfully deleted",
+      "missingIdentifier": "An incorrect file was sent, missing Document Identifier.\nActions for the prompt are blocked, please send the correct document",
+      "differentIdentifier": "New Document Identifier detected, prompt modifications will apply to new file",
+      "incorrectIdentifierPrompt": "There was a problem reading the Document Identifier, change the content for the identifier prompt and try again",
+      "incorrectFileIdentifier": "Document processing failed for Document Identifier: <strong>{{fileId}}</strong>.\nTry again or contact with system administrator"
+    }
+  }
+}
