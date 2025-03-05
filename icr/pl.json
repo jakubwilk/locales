@@ -1,0 +1,181 @@
+{
+  "page": {
+    "home": "Strona główna",
+    "documents": "Dokumenty",
+    "tuning": "Tuning",
+    "addTuning": "Dodawanie nowego tuned prompt",
+    "editTuning": "Edytowanie {{type}} prompt"
+  },
+  "nav": {
+    "home": "Strona główna",
+    "documents": "Dokumenty",
+    "tuning": "Tuning"
+  },
+  "common": {
+    "filters": "Filtry",
+    "clearFilters": "Wyczyść filtry",
+    "goBack": "Wstecz",
+    "unsorted": "Domyślnie",
+    "desc": "Malejąco",
+    "asc": "Rosnąco",
+    "addNew": "Dodaj nowy",
+    "delete": "Usuń",
+    "save": "Zapisz",
+    "cancel": "Anuluj",
+    "print": "Drukuj",
+    "send": "Wyślij",
+    "details": "Szczegóły",
+    "close": "Zamknij",
+    "edit": "Edytuj",
+    "download": "Pobierz",
+    "open": "Otwórz",
+    "saveAs": "Zapisz jako",
+    "setActive": "Aktywny",
+    "back": "Powrót",
+    "noData": "Brak danych",
+    "noFileToShow": "Brak pliku do wyświetlenia",
+    "refresh": "Odśwież",
+    "invalidJson": "Niepoprawny JSON"
+  },
+  "dropzone": {
+    "title": "Przeciągnij tutaj lub wybierz plik po kliknięciu",
+    "description": "Plik nie powinien być większy niż 5mb"
+  },
+  "notifications": {
+    "newPromptSelected": "Wybrano nowy prompt"
+  },
+  "documents": {
+    "details": "Opis",
+    "tableHeaders": {
+      "documentType": "Typ",
+      "name": "Nazwa",
+      "basePromptName": "Prompt bazowy",
+      "tunedPromptName": "Prompt tuned",
+      "registrationDate": "Data rejestracji",
+      "lastUpdatedBy": "Zmodyfikowano przez",
+      "lastUpdatedDate": "Data modyfikacji",
+      "productDescription": "Opis produktu",
+      "quantity": "Ilość",
+      "shipmentNumber": "Numer dostawy",
+      "totalNet": "Suma netto",
+      "identifier": "Identyfikator",
+      "status": "Status"
+    },
+    "filters": {
+      "error": {
+        "unableToGetData": "Wystąpił problem z pobraniem danych do listy"
+      },
+      "documentType": "Typ",
+      "name": "Nazwa",
+      "basePrompt": "Bazowy prompt",
+      "tunedPrompt": "Tuned prompt",
+      "registrationDateFrom": "Data rejestracji od",
+      "registrationDateTo": "Data rejestracji do",
+      "uploadedBy": "Zmodyfikowano przez",
+      "metadata": "Metadane",
+      "status": "Status",
+      "identifier": "Identyfikator"
+    },
+    "sidebar": {
+      "documentType": "Typ",
+      "name": "Nazwa",
+      "basePromptName": "Prompt bazowy",
+      "tunedPromptName": "Prompt tuned",
+      "identifierPromptName": "Prompt identyfikujący",
+      "registrationDate": "Data rejestracji",
+      "lastUpdatedBy": "Ostatnia aktualizacja",
+      "lastUpdatedDate": "Data aktualizacji",
+      "metadata": "Metadane",
+      "result": "Wynik",
+      "invoiceData": "Dane faktury",
+      "invoiceLines": "Linie faktury",
+      "invalidJson": "Niepoprawny JSON",
+      "identifier": "Identyfikator"
+    },
+    "action": {
+      "upload": "Prześlij dokument"
+    },
+    "modal": {
+      "uploadDocumentTitle": "Prześlij dokument",
+      "selectDocumentTypePlaceholder": "Wybierz typ dokumentu"
+    },
+    "notification": {
+      "uploadedDocument": "Pomyślnie przesłano dokument",
+      "uploadError": "Wystąpił problem z przesłaniem dokumentu",
+      "deleteDocument": "Pomyślnie usunięto dokument"
+    },
+    "validation": {
+      "missingFile": "Brak pliku do przesłania",
+      "missingDocumentType": "Brak wybranego typu dokumentu"
+    }
+  },
+  "prompts": {
+    "tableHeaders": {
+      "promptType": "Typ promptu",
+      "identifier": "Identyfikator",
+      "name": "Nazwa",
+      "version": "Wersja",
+      "isActive": "Aktywny",
+      "lastUpdatedBy": "Ostatnia aktualizacja",
+      "lastUpdatedDate": "Data aktualizacji"
+    },
+    "modal": {
+      "promptDeletion": "Usuwanie prompta",
+      "confirmPromptDeletion": "Potwierdź usuwanie prompta"
+    }
+  },
+  "tuning": {
+    "text": "Tekst",
+    "identifier": "Identyfikator",
+    "proces": "Procesuj",
+    "fields": "Pola",
+    "documentType": "Typ dokumentu: {{type}}",
+    "identifierType": "Identyfikator: {{identifier}}",
+    "requirements": "Wymagania",
+    "actions": "Akcje",
+    "resultEmptyInfo": "By zobaczyć dane należy najpierw przesłać dokument",
+    "dataLoading": "Ładowanie danych...",
+    "nameAndVersion": "Nazwa: {{name}} | Wersja: {{version}}",
+    "identifierArea": "Pole identyfikatora",
+    "action": {
+      "add": "Dodaj nowy tuned prompt",
+      "active": "Aktywuj"
+    },
+    "modal": {
+      "name": "Nazwa",
+      "saveAs": "Zapisz jako",
+      "saveNewPrompt": "Zapisz nowy prompt",
+      "chooseNewPrompt": "Wybierz nowy prompt",
+      "pick": "Wybierz",
+      "tableHeaders": {
+        "name": "Nazwa",
+        "version": "Wersja",
+        "lastUpdatedDate": "Data aktualizacji"
+      }
+    },
+    "filters": {
+      "promptTypeId": "Typ promptu",
+      "name": "Nazwa",
+      "identifier": "Identyfikator",
+      "version": "Wersja",
+      "isActive": "Akwytny",
+      "lastUpdatedDateFrom": "Ostatnia aktualizacja od",
+      "lastUpdatedDateTo": "Ostatnia aktualizacja do",
+      "options": {
+        "isActive": "Aktywny",
+        "isInactive": "Nieaktywny"
+      }
+    },
+    "notification": {
+      "createPrompt": "Pomyślnie zapisano nowy prompt",
+      "addSuccess": "Pomyślnie dodano nowy tuning",
+      "editSuccess": "Pomyślnie edytowano prompt",
+      "activeSuccess": "Pomyślnie aktywowano prompt",
+      "deletePrompt": "Pomyślnie usunięto prompt",
+      "missingIdentifier": "Przesłano niepoprawny plik, brakuje Identyfikatora Dokumentu.\nAkcje dla prompta zostają zablokowane, proszę wysłać poprawny dokument",
+      "differentIdentifier": "Wykryto nowy Identyfikator Dokumentu, zapisy promptów będą dotyczyć nowego pliku",
+      "incorrectIdentifierPrompt": "Wystapił problem z odczytaniem Identyfikatora Dokumentu, zmień treść dla identifier prompt i spróbuj ponownie",
+      "incorrectFileIdentifier": "Przetarzanie dokumentu zakończyło się niepowodzeniem dla identyfikatora pliku: <strong>{{fileId}}</strong>.\nSpróbuj ponownie lub skontaktuj się z administratorem"
+    }
+  }
+}
